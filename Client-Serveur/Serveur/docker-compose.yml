@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydatabase
+    volumes:
+      - ./db/data:/var/lib/postgresql/data

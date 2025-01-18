@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000" # Mappe le port 5000 de l'hôte au port 5000 du conteneur
+    volumes:
+      - .:/app # Monte le répertoire courant dans /app du conteneur
+    environment:
+      - FLASK_ENV=development # Variable d'environnement pour Flask
+
+  db:
+    image: postgres:13 # Utilise l'image officielle de PostgreSQL
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydatabase
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persiste les données de la DB
+
+  redis:
+    image: redis:alpine # Utilise l'image officielle Redis
+    ports:
+      - "6379:6379" # Mappe le port Redis
+
+volumes:
+  postgres_data: # Définit un volume pour persister les données de PostgreSQL

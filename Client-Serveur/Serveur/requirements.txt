@@ -1,0 +1,14 @@
+fastapi==0.68.0
+uvicorn==0.15.0
+grpcio==1.43.0
+grpcio-tools==1.43.0
+psycopg2==2.9.2
+python-dotenv==0.19.2
+pytest==6.2.5
+pydantic==1.8.2
+requests==2.26.0
+hsm
+dotenv
+unittest
+sqlalchemy
+redis

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package central_sync;
+
+service CentralSync {
+    rpc SyncData (SyncRequest) returns (SyncResponse);
+}
+
+message SyncRequest {
+    string data = 1;
+}
+
+message SyncResponse {
+    string status = 1;
+}
