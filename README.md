@@ -1,6 +1,8 @@
 # Protocole-CGSIM
 Protocole de Criptographie, de Gestion et de Syncronissation Inter-Magasin
 
+![modele-lineaire-vectoriel-logo-poisson-minimaliste-pour-design-emblematique_950157-1810-245832138](https://github.com/user-attachments/assets/5abb1f3d-c4ce-45d9-a067-24913193fd54)
+
 # Système de gestion sécurisé avec HSM et gRPC
 
 Ce projet est une application sécurisée utilisant un HSM (Hardware Security Module) pour gérer des clés sensibles, gRPC pour la communication entre magasins et serveurs, et FastAPI pour l'API REST.
