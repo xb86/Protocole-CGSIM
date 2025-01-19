@@ -18,3 +18,10 @@ tests:
 
 migrate:
     $(PYTHON) manage.py migrate
+
+.PHONY: ufw
+ufw:
+	sudo ufw allow OpenSSH
+	sudo ufw allow 'Nginx Full'  # Ou remplacez par votre serveur web
+	sudo ufw enable
+	sudo ufw status
