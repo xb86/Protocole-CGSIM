@@ -1,5 +1,5 @@
 import psycopg2
-from config.settings import Settings.DATABASE_URL
+from config.settings import Settings
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -24,5 +24,5 @@ def get_db():
         db.close()
 
 def get_connection():
-    conn = psycopg2.connect(DATABASE_URL)
+    conn = psycopg2.connect(Settings.DATABASE_URL)
     return conn
