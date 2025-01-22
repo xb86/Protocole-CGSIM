@@ -13,3 +13,4 @@ unittest
 sqlalchemy
 redis
 python_grpc
+httpx
