@@ -1,7 +1,7 @@
 # Protocole-CGSIM
 Protocole de Criptographie, de Gestion et de Syncronissation Inter-Magasin
 
-![modele-lineaire-vectoriel-logo-poisson-minimaliste-pour-design-emblematique_950157-1810-245832138](https://github.com/user-attachments/assets/5abb1f3d-c4ce-45d9-a067-24913193fd54)
+![modele-lineaire-vectoriel-logo-poisson-minimaliste-pour-design-emblematique_950157-1810-245832138-removebg-preview-removebg-preview](https://github.com/user-attachments/assets/c7c737a7-5a88-4a70-8181-1fe4c0ba8773)
 
 # Système de gestion sécurisé avec HSM et gRPC
 
