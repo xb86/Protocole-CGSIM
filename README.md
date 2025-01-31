@@ -5,7 +5,7 @@ Protocole de Criptographie, de Gestion et de Syncronissation Inter-Magasin
 
 # Système de gestion sécurisé avec HSM et gRPC
 
-Ce projet est une application sécurisée utilisant un HSM (Hardware Security Module) pour gérer des clés sensibles, gRPC pour la communication entre magasins et serveurs, et FastAPI pour l'API REST.
+Ce projet est une application sécurisée utilisant un HSM (Hardware Security Module) pour gérer des clés sensibles, gRPC pour la communication entre magasins et serveurs, et FastAPI pour l'API REST. Il a une licence BSD 3-Clause, alors faite bien attention à la respecter !
 
 ## Prérequis
 
